@@ -1,0 +1,291 @@
+.btn-blueball {
+  background-color: #2ab7ca;
+  color: #fff;
+  border-radius: 0;
+}
+
+.btn-blueball:hover {
+  background-color: #77d1dd;
+  color: #fff;
+}
+
+.btn-blueball:focus {
+  background-color: #8f9199;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-blanco {
+  background-color: #fff;
+  color: #221d23;
+  border-radius: 0;
+  margin-right: 5px;
+}
+
+.btn-blanco:hover {
+  background-color: #e8e8e8;
+  color: #221d23;
+}
+
+.btn-blanco:focus {
+  background-color: #8f9199;
+  color: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.carta {
+  height: 450px;
+  width: 350px;
+  background-color: #fff;
+  color: #221d23;
+  text-align: left;
+  padding: 40px 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.carta ul li {
+  margin: 0 0 5px 0;
+}
+
+.carta ul {
+  height: 200px;
+}
+
+.carta button {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+  height: 3rem;
+}
+
+.carta:hover {
+  -webkit-box-shadow: 3px 7px 20px #bababa;
+          box-shadow: 3px 7px 20px #bababa;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: bold;
+  src: url("../fonts/Raleway-Bold.ttf");
+}
+
+h1 {
+  font-family: "Raleway" !important;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Raleway" !important;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Raleway" !important;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Raleway" !important;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 20px;
+}
+
+.navbar {
+  padding: 5vh 8.5vw;
+  font-family: "Raleway";
+}
+
+.navbar-toggler {
+  border: none;
+  fill: black;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.trek {
+  background-image: url(../img/bg-hero.svg);
+  background-repeat: no-repeat;
+  background-size: auto 500px;
+  background-position-y: 25rem;
+  background-position-x: -20rem;
+}
+
+.trek #intro {
+  width: 400px;
+  margin-left: 8.5vw;
+  padding-top: 7vh;
+  line-height: 1.7;
+}
+
+.trek .carac {
+  margin-top: 550px;
+  margin-bottom: 100px;
+  padding: 0 16vw;
+  text-align: center;
+}
+
+.trek .estad {
+  text-align: left;
+  margin-top: 10vh;
+}
+
+#precios {
+  background-image: url(../img/bg-price.svg);
+  background-repeat: no-repeat;
+  background-size: auto 1300px;
+  height: 1300px;
+  text-align: center;
+  color: white;
+  padding: 200px 16vw 0px 16vw;
+}
+
+#precios .carta {
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #221d23;
+  height: 20vh;
+  padding: 0;
+  margin: 0;
+}
+
+footer .navbar {
+  padding: 5vh 8.5vw;
+}
+
+footer .nav-item {
+  display: inline-block;
+}
+
+footer ul li a,
+footer ul li a:hover {
+  color: #8f9199;
+  font-family: "Raleway";
+  text-decoration: none;
+}
+
+footer p {
+  color: #8f9199;
+  display: block;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    padding: 5vh 8.5vw;
+    font-family: "Raleway";
+  }
+  nav form button {
+    font-weight: bold;
+  }
+  .trek {
+    background-image: url(../img/bg-hero.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 0rem;
+    background-position-x: 0rem;
+  }
+  #intro {
+    width: 400px;
+    margin-left: 8.5vw;
+    padding-top: 10vh;
+  }
+  h1 {
+    font-family: "Raleway" !important;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  h2 {
+    font-family: "Raleway" !important;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  h3 {
+    font-family: "Raleway" !important;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  h4 {
+    font-family: "Raleway" !important;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  p {
+    font-family: "Open Sans";
+    font-size: 16px;
+  }
+  .carac {
+    margin-top: 550px;
+    margin-bottom: 100px;
+    padding: 0 250px;
+    text-align: center;
+  }
+  .estad {
+    text-align: left;
+  }
+  #precios {
+    background-image: url(../img/bg-price.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 0rem;
+    background-position-x: 0rem;
+    height: 880px;
+    text-align: center;
+    color: white;
+    padding: 200px 200px 0px 200px;
+  }
+  #precios .carta {
+    margin-bottom: 0px;
+  }
+  footer {
+    background: #221d23;
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+  }
+  footer .navbar {
+    padding: 5vh 8.5vw;
+  }
+  footer .nav-item {
+    display: inline-block;
+  }
+  footer ul li a,
+  footer ul li a:hover {
+    color: #8f9199;
+    font-family: "Raleway";
+    text-decoration: none;
+  }
+  footer p {
+    color: #8f9199;
+    display: inline;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
